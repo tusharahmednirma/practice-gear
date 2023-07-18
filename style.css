@@ -300,6 +300,9 @@ a {
     .more{
         width: 90%;
       }
+      .footer-title{
+        padding-top: 100px;
+      }
     
 }
 
@@ -351,5 +354,8 @@ a {
     }
     .more{
         width: 90%;
+      }
+      .footer-title{
+        padding-top: 20px;
       }
 }
