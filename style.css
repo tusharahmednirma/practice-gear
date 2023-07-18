@@ -88,7 +88,7 @@ ul>li a:hover {
 /* main section */
 main {
     max-width: 1140px;
-    margin: auto;
+    margin: 50px auto;
 }
 
 .sponsor {
@@ -161,14 +161,17 @@ main {
     font-weight: 700;
     margin-top: 5px;
 }
-.card-text{
+
+.card-text {
     color: #787885;
     font-family: Inter;
     font-size: 14px;
     font-weight: 700;
     margin-top: 10px;
 }
-.more, a{
+
+.more,
+a {
     cursor: pointer;
     color: rgba(224, 44, 109, 0.87);
     border-radius: 5px;
@@ -177,6 +180,37 @@ main {
     text-decoration: none;
     text-align: right;
     font-weight: 700;
+}
+
+.product-container {
+    display: flex;
+    align-items: center;
+}
+
+.product-text {
+    margin-left: 80px;
+}
+
+.product-title {
+    color: #0A0826;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    color: #6C6C6C;
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+.pbtn{
+    border-radius: 0px;
+    padding: 5px 10px;
+}
+.p-img{
+    margin-left: 100px;
+    width: 300px;
 }
 
 
@@ -215,12 +249,15 @@ main {
     nav ul {
         margin-top: 20px;
     }
-    .card-container{
+
+    .card-container {
         grid-template-columns: 1fr;
     }
-    .card{
+
+    .card {
         width: 100%;
     }
+
 
 }
 
@@ -249,7 +286,8 @@ main {
         grid-template-columns: repeat(4, 1fr);
         gap: 20px;
     }
-    .card-container{
-        grid-template-columns:repeat(2,1fr);
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
